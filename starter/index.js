@@ -17,7 +17,6 @@ let myArrayOfTeamMembers = [];
 
 // TODO: Write Code to gather information about the development team members, and render the HTML file.
 
-const promptForManager = () => {
 
 inquirer
   .prompt(questions.addEmployee("manager"))
@@ -27,7 +26,7 @@ inquirer
     myArrayOfTeamMembers.push(newManager)
     menu();
   });
-}
+
 
 
 const menu = function() {
