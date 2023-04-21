@@ -7,7 +7,7 @@ The application uses [Jest](https://www.npmjs.com/package/jest) for running the 
 
 ## Usage
 
-To generate the questions, you will need to run 'node index.js'
+To generate the questions, you will need to go into the starter folder and run 'node index.js'
 
 
 ## How it works
